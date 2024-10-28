@@ -1,0 +1,181 @@
+.navbar {
+    font-family: 'Burbank Big', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    --webkit-box-shadow: 0 8px 6px -6px #ffffff;
+    background-color: #ffffff !important;
+    padding: 1rem 3rem !important;
+    /* padding: 1rem 2rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    /* margin-bottom: 20px; */
+}
+
+.roow1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-nav-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 15vw;
+
+}
+
+.divider {
+    width: 1px;
+    background-color: #ccc;
+}
+
+.navbar-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-info1, .shipping-info {
+    text-align: left;
+    margin-right: 1.5rem;
+}
+
+.contact-info1 h5, .shipping-info h5 {
+    margin-bottom: 2px;
+}
+
+.bold-text {
+    font-family: 'Burbank Big', sans-serif;
+    font-weight: 800;
+}
+
+.username {
+    font-size: 1rem;
+}
+
+.small-text {
+    font-size: 0.70rem;
+    color: grey;
+    font-family: 'Burbank Big', sans-serif;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.roow2 {
+    /* margin-top: 0.7rem; */
+    /* Space between first and second rows */
+}
+
+.category-nav-group {
+    text-align: center;
+}
+
+.category-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.login-message {
+    text-align: center;
+    background-color: #ffcc00;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Burbank Big', sans-serif;
+
+}
+
+.category-link {
+    /* font-size: 1.2rem; */
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.category-link:hover {
+    color: #EF3636;
+}
+
+.category-link.active {
+    color: #EF3636;
+}
+
+.dropdown-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-family: 'Burbank Big';
+    text-decoration: none;
+    color: #000;
+
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .search-container {
+        display: none;
+    }
+
+    .navbar-info {
+        display: none;
+    }
+
+    .logo-img {
+        width: 20vw;
+    }
+
+    .category-list {
+        flex-direction: column;
+    }
+}

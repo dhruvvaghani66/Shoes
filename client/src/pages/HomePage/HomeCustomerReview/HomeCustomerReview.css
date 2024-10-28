@@ -1,0 +1,172 @@
+.customer-review-section {
+  text-align: center;
+  /* Center align text */
+  padding: 2rem;
+  /* Add padding for spacing */
+}
+
+.review-heading {
+  font-size: 2rem;
+  /* Set heading size */
+  margin-bottom: 0.5rem;
+  /* Space below heading */
+}
+
+.review-subheading {
+  font-size: 1.2rem;
+  /* Set subheading size */
+  color: #555;
+  /* Gray color for subheading */
+  margin-bottom: 2rem;
+  /* Space below subheading */
+}
+
+.review-cards-container {
+  display: flex;
+  /* Use flex for layout */
+  flex-wrap: wrap;
+  /* Allow wrapping */
+  justify-content: center;
+  /* Center cards */
+  gap: 1rem;
+  /* Space between cards */
+}
+
+.review-card {
+  background-image: url('../../../assets/images/customerreview1.png');
+  /* Background image */
+  background-size: cover;
+  /* Cover the card */
+  background-position: center;
+  /* Center the image */
+  color: white;
+  /* Text color */
+  width: 29vw;
+  /* Width of the card */
+  height: 68vh;
+  /* Height of the card */
+  margin-bottom: 90px;
+  display: flex;
+  /* Enable flex layout */
+  flex-direction: column;
+  /* Arrange children vertically */
+  justify-content: flex-end;
+  /* Push content to the bottom */
+  position: relative;
+  /* Position for child elements */
+  /* border-radius: 10px; */
+  /* Rounded corners */
+  overflow: visible;
+  /* Allow content to overflow */
+}
+
+.review-card2 {
+  background-image: url('../../../assets/images/customerreview2.png');
+  /* Background image */
+  background-size: cover;
+  /* Cover the card */
+  background-position: center;
+  /* Center the image */
+  color: white;
+  /* Text color */
+  width: 29vw;
+  /* Width of the card */
+  height: 68vh;
+  /* Height of the card */
+  margin-bottom: 90px;
+  display: flex;
+  /* Enable flex layout */
+  flex-direction: column;
+  /* Arrange children vertically */
+  justify-content: flex-end;
+  /* Push content to the bottom */
+  position: relative;
+  /* Position for child elements */
+  /* border-radius: 10px; */
+  /* Rounded corners */
+  overflow: visible;
+  /* Allow content to overflow */
+}
+
+.review-card3 {
+  background-image: url('../../../assets/images/customerreview3.png');
+  /* Background image */
+  background-size: cover;
+  /* Cover the card */
+  background-position: center;
+  /* Center the image */
+  color: white;
+  /* Text color */
+  width: 29vw;
+  /* Width of the card */
+  height: 68vh;
+  /* Height of the card */
+  margin-bottom: 90px;
+  display: flex;
+  /* Enable flex layout */
+  flex-direction: column;
+  /* Arrange children vertically */
+  justify-content: flex-end;
+  /* Push content to the bottom */
+  position: relative;
+  /* Position for child elements */
+  /* border-radius: 10px; */
+  /* Rounded corners */
+  overflow: visible;
+  /* Allow content to overflow */
+}
+
+.customerinsidecard {
+  display: flex;
+  /* Use flex to center align */
+  flex-direction: column;
+  /* Arrange children vertically */
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  /* Center horizontally */
+  width: 80%;
+  /* Adjust width to allow for margins */
+  background-color: white;
+  /* Semi-transparent background for card content */
+  color: #1C1E25;
+  /* Text color */
+  padding: 1rem;
+  /* Padding inside card */
+  position: absolute;
+  /* Absolute positioning for overlap */
+  top: 50%;
+  /* Position it at the center */
+  left: 50%;
+  /* Center horizontally */
+  transform: translate(-50%, 70%);
+  /* Center the card */
+  /* border-radius: 10px; */
+  /* Rounded corners */
+  z-index: 1;
+
+}
+
+.customerlogo {
+  background-color: #1C1E25;
+  color: white;
+  width: 110.6%;
+  padding: 0.8rem;
+
+}
+
+.customerlogo img {
+  /* height: 1vw !important; */
+}
+
+.review-product-name {
+  color: red;
+  /* Red color for product name */
+}
+
+.review-text {
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 17px;
+  /* Remove default margin */
+}

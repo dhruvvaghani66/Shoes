@@ -1,0 +1,41 @@
+.photo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  /* No space between images */
+  flex-wrap: wrap;
+  /* Allows wrapping on smaller screens */
+}
+
+.photo-item {
+  width: 20%;
+  /* Each image will take the full width */
+  /* max-width: 20%; */
+  /* Image takes up to 20% of the parent container's width */
+  height: 35vh !important;
+  object-fit: cover;
+  /* Ensures all images keep their aspect ratio while filling their container */
+  flex-grow: 1;
+}
+
+@media (max-width: 1024px) {
+  .photo-item {
+    max-width: 33.33%;
+    /* Adjust to 3 images per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .photo-item {
+    max-width: 50%;
+    /* Adjust to 2 images per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .photo-item {
+    max-width: 100%;
+    /* Stack images vertically on very small screens */
+  }
+}

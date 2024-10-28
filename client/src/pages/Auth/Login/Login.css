@@ -1,0 +1,143 @@
+/* Login.css */
+
+.login-bg {
+  background-image: url('../../../assets/images/loginbg.png');
+  background-size: cover;
+  background-position: center;
+  /* height: 52vw; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add padding to push content down */
+  /* padding-bottom: 5rem; */
+
+}
+
+.for-container {
+  /* height: 100%; */
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; */
+}
+
+.login-card {
+
+  background-color: #222E41;
+  border-radius: 25px;
+  padding: 2.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* width: 30vw ; */
+  width: 34vw;
+  height: auto;
+  /* max-width: 400px; */
+  /* Max width for the card */
+  text-align: center;
+  font-family: 'Burbank Big', sans-serif;
+
+}
+
+.loginlogo {
+  width: 40%;
+  /* Logo size */
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Link Container and Hover Styles */
+/* Link Container and Hover Styles */
+.link-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Common link styles */
+.link {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 1rem;
+  position: relative;
+  padding-bottom: 5px;
+  /* Space for the active line */
+}
+
+/* Active Link Styles */
+.link.active {
+  color: #ffffff;
+}
+
+/* Active underline */
+.link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ed5221;
+  /* Active underline color */
+  transition: width 0.3s ease;
+}
+
+/* Hover underline effect */
+.link:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ed5221;
+  /* Hover underline color */
+  transition: width 0.3s ease;
+}
+
+/* Separator */
+.separator {
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0 0.5rem;
+}
+
+/* Form control styles */
+.form-control1 {
+  width: 80%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+}
+
+/* Sign-in button styles */
+.sign-in-btn {
+  background-color: #ed5221;
+  color: #ffffff;
+  width: 90%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in-btn:hover {
+  background-color: #d74b1a;
+}
+
+/* Forgot password link */
+.forgot-password {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.forgot-link {
+  color: #ffffff;
+  text-decoration: underline;
+}

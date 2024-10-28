@@ -1,0 +1,261 @@
+.cart-container {
+  padding: 1rem 1rem;
+  /* font-family: 'Burbank Big Condensed', sans-serif; */
+  font-family: "Lato", sans-serif;
+}
+
+.cart-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+}
+
+.cart-items-info {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cart-title span {
+  color: #3498db;
+}
+
+.cart-items-info span {
+  font-weight: 600;
+  color: #2980b9;
+}
+
+/* Cart Header */
+.cart-header {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-evenly;
+  font-family: 'Burbank Big Condensed', sans-serif;
+  text-transform: uppercase;
+  margin-left: 5.9%;
+  /* font-size: 1.25rem; */
+  /* border-bottom: 1px solid #ddd; */
+  /* padding: 1rem 0; */
+}
+
+.cart-header-item {
+
+  /* font-size: 1.2rem; */
+  /* padding: 0.5rem; */
+  /* text-align: center; */
+}
+
+.cart-header-item1 {
+  flex: 1;
+  /* text-align: right; */
+  /* text-align: left; */
+
+}
+
+/* Cart Items */
+
+.cartboxdetail {
+  margin-bottom: 0rem;
+}
+
+.cart-item {
+  margin-bottom: 1.5rem;
+  /* display: flex; */
+  /* padding: 0.3rem; */
+}
+
+.removecardborder {
+  border: none;
+  /* margin-top: 20px; */
+  margin-bottom: 0rem !important;
+}
+
+.cart-image img {
+  margin-top: -0.5rem;
+  margin-bottom: 0;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.cart-details {
+  flex: 1.70;
+  margin-top: 10px;
+  padding-left: 1.1rem;
+}
+
+.cart-product-title {
+  font-size: 1.1rem;
+}
+
+.cart-product-desc {
+  flex: 1;
+  font-size: 0.599rem;
+  color: #666;
+}
+
+.cart-price {
+  margin-top: 40px;
+  flex: 1.46;
+  color: #666;
+  font-weight: 300;
+  text-align: center;
+}
+
+.cart-quantity {
+  margin-top: 35px;
+  width: 5.2vw;
+  /* border -color: #666; */
+  /* flex: 0.5; */
+
+}
+
+.leftsubtotal {}
+
+.cart-total {
+  /* flex: ; */
+  margin-top: 40px;
+  /* padding-left: -50rem !important; */
+  text-align: center;
+}
+
+.cart-remove-icon {
+  margin-top: 38px;
+}
+
+/* Cart Summary */
+/* .cart-summary {
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.summary-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.address-box,
+.login-box {
+  margin-bottom: 1.5rem;
+} */
+
+
+
+
+
+.cart-summary {
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Lato', sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cart-summary:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.summary-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cart-summary p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+  text-align: center;
+}
+
+.cart-summary h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.cart-summary small {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #7f8c8d;
+}
+
+.cart-summary .btn {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #3498db;
+  border-color: #3498db;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cart-summary .btn:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+.cart-summary hr {
+  margin: 1.5rem 0;
+  border-color: #ddd;
+}
+
+.address-box,
+.login-box {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.address-box h4,
+.login-box h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.address-box p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #7f8c8d;
+}
+
+.btn-warning {
+  background-color: #f39c12;
+  border-color: #e67e22;
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.75rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-warning:hover {
+  background-color: #e67e22;
+  transform: translateY(-2px);
+}

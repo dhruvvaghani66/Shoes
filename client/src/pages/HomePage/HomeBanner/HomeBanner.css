@@ -1,0 +1,369 @@
+
+.home-banner {
+  background-image: url('../../../assets/images/homeBanner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5vw;
+  padding-bottom: 5vh;
+  position: relative;
+}
+
+.banner-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 12rem 0 2.9rem 0;
+  /* Adjust this margin for spacing */
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner-content h4 {
+  font-size: 1.7vw;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.shoesname h2 {
+  font-size: 5vw;
+  margin: 0;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.banner-content h3 {
+  font-size: 2.5vw;
+  margin-top: 1rem;
+  color: #e63946;
+}
+
+.shop-now-btn {
+  margin-top: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: black;
+  font-size: 1.3vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 3rem;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.05);
+}
+
+.shop-now-btn:active {
+  transform: scale(0.98);
+}
+
+/* Card Banners Section */
+.card-banners {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem 3.5vw;
+  position: relative;
+  /* Change to relative */
+  top: -10vh;
+  /* Use negative values if needed for spacing */
+  z-index: 1;
+  /* Ensures it overlays on top */
+}
+
+.card-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3.8rem;
+  color: white;
+}
+
+.first-banner {
+  background-image: url('../../../assets/images/stylebanner.png');
+  background-size: cover;
+  background-position: center;
+  width: 74%;
+}
+
+.second-banner {
+  background-image: url('../../../assets/images/energy.png');
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+}
+
+/* Text Section Inside Cards */
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+  padding-left: 3vw;
+}
+
+/* Discount Box Styles */
+.discount-box {
+  background-color: #FAC062;
+  color: black;
+  padding: 0.5rem 1rem;
+  font-weight: 800;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.text-section h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2.7vw;
+  line-height: 0.9;
+}
+
+.text-section1 h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  line-height: 0.7;
+}
+
+.text-section p {
+  font-family: "Lato", sans-serif;
+}
+
+.text-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Discount Box Styles */
+.discount-box1 {
+  background-color: #FE5741;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: 800;
+  margin-top: 12vh;
+  /* Adjust spacing */
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 1rem;
+}
+
+/* Button Styles */
+.find-shoe-btn {
+  padding: 0.6rem 1.4rem;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.view-campaign-btn {
+  padding: 0.6rem 1.4rem;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.find-shoe-btn:hover,
+.view-campaign-btn:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .home-banner {
+    padding-left: 3vw;
+  }
+
+  .banner-content h4 {
+    font-size: 4vw;
+  }
+
+  .shoesname h2 {
+    font-size: 7vw;
+  }
+
+  .banner-content h3 {
+    font-size: 4vw;
+  }
+
+  .shop-now-btn {
+    font-size: 3.5vw;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .card-banners {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first-banner,
+  .second-banner {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-banner {
+    padding-left: 2vw;
+  }
+
+  .banner-content h4 {
+    font-size: 5vw;
+  }
+
+  .shoesname h2 {
+    font-size: 9vw;
+  }
+
+  .banner-content h3 {
+    font-size: 5vw;
+  }
+
+  .shop-now-btn {
+    font-size: 4vw;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+/* Home Banner Styles */
+/* .home-banner {
+  background-image: url('../../../assets/images/homeBanner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5vw;
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+}
+
+.banner-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.9rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner-content h4 {
+  font-size: 1.7vw;
+  margin-bottom: 2rem;
+
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.shoesname h2 {
+  font-size: 5vw;
+  margin: 0;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.shoesname {
+
+}
+
+.banner-content h3 {
+  font-size: 2.5vw;
+  margin-top: 1rem;
+  color: #e63946;
+}
+
+.shop-now-btn {
+  margin-top: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: black;
+  font-size: 1.3vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 3rem;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.05);
+}
+
+.shop-now-btn:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .home-banner {
+    padding-left: 3vw;
+  }
+
+  .banner-content h4 {
+    font-size: 4vw;
+  }
+
+  .shoesname h2 {
+    font-size: 7vw;
+  }
+
+  .banner-content h3 {
+    font-size: 4vw;
+  }
+
+  .shop-now-btn {
+    font-size: 3.5vw;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-banner {
+    padding-left: 2vw;
+  }
+
+  .banner-content h4 {
+    font-size: 5vw;
+  }
+
+  .shoesname h2 {
+    font-size: 9vw;
+  }
+
+  .banner-content h3 {
+    font-size: 5vw;
+  }
+
+  .shop-now-btn {
+    font-size: 4vw;
+    padding: 0.6rem 1.2rem;
+  }
+} */
